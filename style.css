@@ -1,1 +1,15 @@
 /* YOUR STYLES HERE */
+
+.logo {
+  height: 250px;
+}
+
+.smallest {
+  color: #ffdb6d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #ffdb6d;
+  padding: 1rem;
+  background-color: #1d2531;
+}
