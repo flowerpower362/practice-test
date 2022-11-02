@@ -17,8 +17,11 @@ While the sections will not change when taking the actual exam the sub-tasks wil
 1. **Writing and styling html**
 
    - Use the largest heading element to render the message `Hello CodeWorks` to the page ✅
+
    - Use the smallest heading element to render your name to the page ✅
+
    - Use a paragraph element to render the short sentence `Coding is Fun!` to the page ✅
+   
    - Use an element to bold only the word `Fun!` in the paragraph above ✅
    - Use an img element to render the following logo to the page `https://bcw.blob.core.windows.net/public/img/8600856373152463`✅
    - Adjust the height of the logo to be `250px`✅

@@ -32,11 +32,11 @@ function ageOfJavascript() {
 
 if (ageToVote >= 18) {
   console.log("JavaScript is old enough to vote");
-}
-
-if (ageToVote <= 18) {
+} else (ageToVote <= 18) {
   console.log("JavaScript is not old enough to vote");
 }
+
+
 
 // CREATE LOOPS
 
@@ -60,11 +60,12 @@ if (ageToVote <= 18) {
 //ADD STRING 'Finished' WHEN LOOP CONCLUDES
 
 for (i = 0; i <= 100; i++) {
-  if (i % 10 === 0) {
-    console.log(i);
-  }
+  
   if (i === 0) {
     console.log("Starting");
+  }
+  if (i % 10 === 0) {
+    console.log(i);
   }
   if (i === 50) {
     console.log("Halfway");
@@ -94,3 +95,17 @@ for (let i = 0; i < cases.length; i++) {
     console.log(item.title, item.releaseYear);
   }
 }
+
+//ADDITIONAL PRACTICE TERMS AND SHORT PROBLEMS ON THE CHEAT SHEET
+
+//Add Two Numbers with JavaScript
+// let addTwoNumbers = num1 + num2;
+
+//Subtract One Number from Another with JavaScript
+//let subtractTwoNumbers = num1 - num2;
+
+//Multiply Two Numbers with JavaScript
+//let multiplyTwoNumbers = num1 * num2;
+
+//Divide One Number by Another with JavaScript
+//let divideTwoNumbers = num1 / num2;
